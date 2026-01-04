@@ -7,7 +7,8 @@ load_dotenv()
 
 # ========== 配置豆包信息【仅需改这2处】 ==========
 DOUBAO_API_KEY = os.getenv("ARK_API_KEY")  # 替换成自己的
-DOUBAO_MODEL ="openai/doubao-seed-1-6-251015"     # 可选：doubao-lite/doubao-turbo/doubao-4
+
+DOUBAO_MODEL = "openai/doubao-seed-1-6-251015"
 BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
 
 # ========== 核心调用代码（一行不改，通用所有模型） ==========
